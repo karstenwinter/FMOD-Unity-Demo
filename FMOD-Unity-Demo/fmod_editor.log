@@ -1,0 +1,731 @@
+[LOG] System::create                           : Header version = 2.02.04. Current version = 2.02.04.
+[LOG] Manager::init                            : maxchannels = 256 studioflags = 00000006 flags 00000000 extradriverdata 0000000000000000.
+[LOG] SystemI::init                            : Initialize version=20204 (121702), maxchannels=256, flags=0x00020000
+[LOG] SystemI::setOutputInternal               : Setting output to 'FMOD WASAPI Output'
+[LOG] OutputWASAPI::init                       : Mix Format (WAVEFORMATEX): wFormatTag=0xFFFE, nChannels=2, nSamplesPerSec=48000, nAvgBytesPerSec=384000, nBlockAlign=8, wBitsPerSample=32, cbSize=22.
+[LOG] OutputWASAPI::init                       : Mix Format (WAVEFORMATEXTENSIBLE): wValidBitsPerSample=32, dwChannelMask=0x00000003, SubFormat=00000003-0000-0010-8000-00AA00389B71.
+[LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
+[LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
+[LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x4000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
+[LOG] AsyncManager::init                       : manager 000001E147BDC6F8 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : done
+[LOG] PlaybackSystem::init                     : 
+[LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
+[LOG] PlaybackSystem::init                     : done
+[LOG] Thread::initThread                       : Init FMOD Studio bank load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
+[LOG] Manager::init                            : done.
+[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
+[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
+[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
+[LOG] Manager::finishLoadBank                  : Bank with guid {d100ffc4-9718-41d7-b641-181373b55498} has already been loaded
+[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
+[LOG] Manager::finishLoadBank                  : Bank with guid {d100ffc4-9718-41d7-b641-181373b55498} has already been loaded
+[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
+[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
+[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
+[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21502400
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 77664
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000471AA4F138
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB19EA0AD0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB19EA0AA0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB19EA0BA0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB19EA0C60
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001DE4EF87818
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='ambience_city_walla_chatter_3', format=5, channels=1, frequency=48000, lengthbytes=11040, lengthpcm=62415, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.236328.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21502400
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 77664
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000471AA4F138
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB19EA0AD0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB19EA0AA0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB19EA0BA0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB19EA0C60
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001DE4EF87818
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='ambience_city_traffic_train_1', format=5, channels=1, frequency=48000, lengthbytes=70848, lengthpcm=456000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.610199.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21502400
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 77664
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000471AA4F138
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB19EA0AD0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB19EA0AA0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB19EA0BA0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB19EA0C60
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001DE4EF87818
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='ambience_city_traffic_passing_7', format=5, channels=1, frequency=48000, lengthbytes=52032, lengthpcm=336000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.450470.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21502400
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 77664
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000471AA4F138
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB19EA0AD0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB19EA0AA0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB19EA0BA0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB19EA0C60
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001DE4EF87818
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='ambience_city_traffic_horn_1', format=5, channels=1, frequency=48000, lengthbytes=5568, lengthpcm=29492, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.543518.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21502400
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 77664
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000471AA4F138
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB19EA0AD0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB19EA0AA0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB19EA0BA0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB19EA0C60
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001DE4EF87818
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='ambience_city_traffic_passing_3', format=5, channels=1, frequency=48000, lengthbytes=72064, lengthpcm=480000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.517059.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21502400
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 77664
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000471AA4F138
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB19EA0AD0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB19EA0AA0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB19EA0BA0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB19EA0C60
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001DE4EF87818
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='ambience_city_walla_chatter_13', format=5, channels=1, frequency=48000, lengthbytes=12256, lengthpcm=68297, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.260681.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21502400
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 77664
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000471AA4F138
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB19EA0AD0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB19EA0AA0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB19EA0BA0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB19EA0C60
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001DE4EF87818
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='ambience_city_walla_chatter_1', format=5, channels=1, frequency=48000, lengthbytes=8672, lengthpcm=49319, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.289001.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21502400
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 77664
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000471AA4F138
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB19EA0AD0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB19EA0AA0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB19EA0BA0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB19EA0C60
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001DE4EF87818
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='ambience_city_traffic_horn_5', format=5, channels=1, frequency=48000, lengthbytes=64384, lengthpcm=417999, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.296265.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21502400
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 77664
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000471AA4F138
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB19EA0AD0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB19EA0AA0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB19EA0BA0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB19EA0C60
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001DE4EF87818
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='ambience_city_traffic_train_2', format=5, channels=1, frequency=48000, lengthbytes=73344, lengthpcm=456000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.515930.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21502400
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 77664
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000471AA4F138
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB19EA0AD0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB19EA0AA0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB19EA0BA0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB19EA0C60
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001DE4EF87818
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='ambience_city_traffic_passing_2', format=5, channels=1, frequency=48000, lengthbytes=70816, lengthpcm=432000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.534760.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21502400
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 77664
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000471AA4F138
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB19EA0AD0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB19EA0AA0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB19EA0BA0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB19EA0C60
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001DE4EF87818
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='ambience_city_traffic_siren', format=5, channels=1, frequency=48000, lengthbytes=51744, lengthpcm=384000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.707397.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21502400
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 77664
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000471AA4F138
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB19EA0AD0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB19EA0AA0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB19EA0BA0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB19EA0C60
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001DE4EF87818
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='ambience_city_walla_chatter_4', format=5, channels=1, frequency=48000, lengthbytes=14144, lengthpcm=104629, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.284790.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21502400
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 77664
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000471AA4F138
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB19EA0AD0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB19EA0AA0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB19EA0BA0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB19EA0C60
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001DE4EF87818
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='ambience_city_walla_chatter_6', format=5, channels=1, frequency=48000, lengthbytes=5792, lengthpcm=32693, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.562469.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21502400
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 77664
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000471AA4F138
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB19EA0AD0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB19EA0AA0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB19EA0BA0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB19EA0C60
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001DE4EF87818
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='ambience_city_walla_chatter_11', format=5, channels=1, frequency=48000, lengthbytes=16128, lengthpcm=108202, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.857147.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21502400
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 77664
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000471AA4F138
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB19EA0AD0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB19EA0AA0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB19EA0BA0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB19EA0C60
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001DE4EF87818
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='ambience_city_traffic_passing_4', format=5, channels=1, frequency=48000, lengthbytes=73024, lengthpcm=456000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.724792.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21502400
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 77664
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000471AA4F138
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB19EA0AD0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB19EA0AA0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB19EA0BA0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB19EA0C60
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001DE4EF87818
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='ambience_city_traffic_passing_1', format=5, channels=1, frequency=48000, lengthbytes=42400, lengthpcm=288000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.454803.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21502400
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 77664
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000471AA4F138
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB19EA0AD0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB19EA0AA0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB19EA0BA0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB19EA0C60
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001DE4EF87818
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='ambience_city_walla_chatter_14', format=5, channels=1, frequency=48000, lengthbytes=11040, lengthpcm=62415, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.236328.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21502400
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 77664
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000471AA4F138
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB19EA0AD0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB19EA0AA0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB19EA0BA0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB19EA0C60
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001DE4EF87818
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='ambience_city_traffic_horn_2', format=5, channels=1, frequency=48000, lengthbytes=8512, lengthpcm=48000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.540314.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21502400
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 77664
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000471AA4F138
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB19EA0AD0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB19EA0AA0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB19EA0BA0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB19EA0C60
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001DE4EF87818
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='ambience_city_walla_chatter_9', format=5, channels=1, frequency=48000, lengthbytes=41120, lengthpcm=231192, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.512726.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21502400
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 77664
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000471AA4F138
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB19EA0AD0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB19EA0AA0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB19EA0BA0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB19EA0C60
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001DE4EF87818
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='ambience_city_walla_chatter_2', format=5, channels=1, frequency=48000, lengthbytes=27424, lengthpcm=196907, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.213898.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21502400
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 77664
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000471AA4F138
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB19EA0AD0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB19EA0AA0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB19EA0BA0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB19EA0C60
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001DE4EF87818
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='ambience_city_walla_chatter_15', format=5, channels=1, frequency=48000, lengthbytes=12480, lengthpcm=72725, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.287933.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21502400
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 77664
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000471AA4F138
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB19EA0AD0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB19EA0AA0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB19EA0BA0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB19EA0C60
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001DE4EF87818
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='ambience_city_walla_chatter_7', format=5, channels=1, frequency=48000, lengthbytes=6464, lengthpcm=42101, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.445862.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21502400
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 77664
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000471AA4F138
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB19EA0AD0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB19EA0AA0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB19EA0BA0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB19EA0C60
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001DE4EF87818
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='ambience_city_walla_chatter_16', format=5, channels=1, frequency=48000, lengthbytes=12704, lengthpcm=82199, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.364227.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21502400
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 77664
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000471AA4F138
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB19EA0AD0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB19EA0AA0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB19EA0BA0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB19EA0C60
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001DE4EF87818
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='ambience_city_traffic_passing_5', format=5, channels=1, frequency=48000, lengthbytes=73728, lengthpcm=400201, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.595276.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21502400
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 77664
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000471AA4F138
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB19EA0AD0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB19EA0AA0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB19EA0BA0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB19EA0C60
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001DE4EF87818
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='ambience_city_traffic_horn_3', format=5, channels=1, frequency=48000, lengthbytes=19936, lengthpcm=104690, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.615295.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21502400
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 77664
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000471AA4F138
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB19EA0AD0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB19EA0AA0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB19EA0BA0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB19EA0C60
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001DE4EF87818
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='ambience_city_walla_chatter_8', format=5, channels=1, frequency=48000, lengthbytes=26304, lengthpcm=149238, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.362732.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21502400
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 77664
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000471AA4F138
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB19EA0AD0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB19EA0AA0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB19EA0BA0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB19EA0C60
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001DE4EF87818
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='ambience_city_walla_chatter_12', format=5, channels=1, frequency=48000, lengthbytes=39648, lengthpcm=249760, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.367737.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21502400
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 77664
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000471AA4F138
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB19EA0AD0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB19EA0AA0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB19EA0BA0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB19EA0C60
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001DE4EF87818
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='ambience_city_traffic_passing_6', format=5, channels=1, frequency=48000, lengthbytes=60960, lengthpcm=370109, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.653534.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21502400
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 77664
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000471AA4F138
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB19EA0AD0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB19EA0AA0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB19EA0BA0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB19EA0C60
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001DE4EF87818
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='ambience_city_walla_chatter_5', format=5, channels=1, frequency=48000, lengthbytes=6816, lengthpcm=45926, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.513031.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21502400
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 77664
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000471AA4F138
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB19EA0AD0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB19EA0AA0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB19EA0BA0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB19EA0C60
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001DE4EF87818
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='ambience_city_traffic_horn_4', format=5, channels=1, frequency=48000, lengthbytes=11840, lengthpcm=71785, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.530426.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21502400
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 77664
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000471AA4F138
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB19EA0AD0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB19EA0AA0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB19EA0BA0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB19EA0C60
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001DE4EF87818
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='ambience_city_walla_chatter_17', format=5, channels=1, frequency=48000, lengthbytes=19616, lengthpcm=117629, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.469360.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 21502400
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 77664
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000471AA4F138
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB19EA0AD0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB19EA0AA0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB19EA0BA0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB19EA0C60
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001DE4EF87818
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='ambience_city_walla_chatter_10', format=5, channels=1, frequency=48000, lengthbytes=29984, lengthpcm=187494, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.397705.
+[LOG] SystemI::createSound                     : filename = ../Examples/Build/Desktop/SFX.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001E0AC86A638 : node = 000001E0AC9AB0C0
+[LOG] SystemI::createSound                     : add node to async list : head = 000001E150FE2368.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001E0AC86A638
+[LOG] SystemI::createSound                     : filename = ../Examples/Build/Desktop/SFX.bank : mode 02010082
+[LOG] SystemI::createSoundInternal             :     Create name='../Examples/Build/Desktop/SFX.bank', mode=0x02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSound                     :     setdata soundi = 000001E0AC86ACF8 : node = 000001E0AC9AB5C0
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 21502400
+[LOG] SystemI::createSound                     :     add node to async list : head = 000001E150FE2368.  list count = 0
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 77664
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001E0AC9AB1D0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='ambience_city_walla_pad', format=5, channels=2, frequency=48000, lengthbytes=646112, lengthpcm=2400000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.709198.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001E0AC86A638
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001E0AC86ACF8
+[LOG] SystemI::createSoundInternal             :     Create name='../Examples/Build/Desktop/SFX.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 21502400
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 77664
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001E0AC9AB6D0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='ambience_city_traffic_pad', format=5, channels=2, frequency=48000, lengthbytes=798336, lengthpcm=3000000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.597443.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001E0AC86ACF8
+[LOG] SoundI::release                          :  (000001E15566C658)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_1 (000001E152201758)
+[LOG] SoundI::release                          :  (000001DE50A5A438)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_2 (000001DE4977CE08)
+[LOG] SoundI::release                          :  (000001DE4F67DBD8)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_3 (000001E162BA1568)
+[LOG] SoundI::release                          :  (000001E15566C378)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_4 (000001E15160CFE8)
+[LOG] SoundI::release                          :  (000001DE50AB6C38)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_5 (000001E162F8C348)
+[LOG] SoundI::release                          :  (000001E15566CD88)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_6 (000001E15160D188)
+[LOG] SoundI::release                          :  (000001DE50A5A158)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_7 (000001DE4977D488)
+[LOG] SoundI::release                          :  (000001DE50AB6F18)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_8 (000001E1518F2438)
+[LOG] SoundI::release                          :  (000001DE50A59B98)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_9 (000001DE4977CAC8)
+[LOG] SoundI::release                          :  (000001DE50AB74D8)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_10 (000001E150DD8ED8)
+[LOG] SoundI::release                          :  (000001E15566C4E8)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_11 (000001E1549C8378)
+[LOG] SoundI::release                          :  (000001DE50AB7368)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_12 (000001E1518F18D8)
+[LOG] SoundI::release                          :  (000001E15566C208)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_13 (000001E152200F38)
+[LOG] SoundI::release                          :  (000001DE50A59E78)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_14 (000001E1549C86B8)
+[LOG] SoundI::release                          :  (000001DE50A59D08)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_15 (000001DE4977D2E8)
+[LOG] SoundI::release                          :  (000001DE50A5A2C8)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_16 (000001E1518F1F58)
+[LOG] SoundI::release                          :  (000001DE50AB7088)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_17 (000001E162F8BCC8)
+[LOG] SoundI::release                          :  (000001E15566CC18)
+[LOG] SoundI::release                          :     ambience_city_traffic_train_2 (000001E152201278)
+[LOG] SoundI::release                          :  (000001DE4F67D618)
+[LOG] SoundI::release                          :     ambience_city_traffic_train_1 (000001E162BA1228)
+[LOG] SoundI::release                          :  (000001DE50A59FE8)
+[LOG] SoundI::release                          :     ambience_city_traffic_passing_1 (000001E1549C8858)
+[LOG] SoundI::release                          :  (000001E15566C098)
+[LOG] SoundI::release                          :     ambience_city_traffic_passing_2 (000001E15160DCE8)
+[LOG] SoundI::release                          :  (000001DE4F67DA68)
+[LOG] SoundI::release                          :     ambience_city_traffic_passing_3 (000001E152200D98)
+[LOG] SoundI::release                          :  (000001E15566C938)
+[LOG] SoundI::release                          :     ambience_city_traffic_passing_4 (000001E1549C81D8)
+[LOG] SoundI::release                          :  (000001DE50A598B8)
+[LOG] SoundI::release                          :     ambience_city_traffic_passing_5 (000001E1518F20F8)
+[LOG] SoundI::release                          :  (000001DE50AB67E8)
+[LOG] SoundI::release                          :     ambience_city_traffic_passing_6 (000001E162F8B7E8)
+[LOG] SoundI::release                          : ambience_city_traffic_pad (000001E0AC86ACF8)
+[LOG] SoundI::release                          :     ambience_city_traffic_pad (000001E15052DFF8)
+[LOG] SoundI::release                          :     ambience_city_traffic_pad (000001DE57D44E28)
+[LOG] SoundI::release                          : ambience_city_walla_pad (000001E0AC86A638)
+[LOG] SoundI::release                          :     ambience_city_walla_pad (000001E150DDD758)
+[LOG] SoundI::release                          :     ambience_city_walla_pad (000001E15161BC08)
+[LOG] SoundI::release                          :  (000001DE4F67D788)
+[LOG] SoundI::release                          :     ambience_city_traffic_passing_7 (000001E162BA0EE8)
+[LOG] SoundI::release                          :  (000001E15566C7C8)
+[LOG] SoundI::release                          :     ambience_city_traffic_siren (000001E15160D328)
+[LOG] SoundI::release                          :  (000001DE4F67D8F8)
+[LOG] SoundI::release                          :     ambience_city_traffic_horn_1 (000001E162BA18A8)
+[LOG] SoundI::release                          :  (000001DE50A59A28)
+[LOG] SoundI::release                          :     ambience_city_traffic_horn_2 (000001E1549C7CF8)
+[LOG] SoundI::release                          :  (000001DE50A59748)
+[LOG] SoundI::release                          :     ambience_city_traffic_horn_3 (000001E1518F1A78)
+[LOG] SoundI::release                          :  (000001DE50AB6DA8)
+[LOG] SoundI::release                          :     ambience_city_traffic_horn_4 (000001E162F8C008)
+[LOG] SoundI::release                          :  (000001E15566CAA8)
+[LOG] SoundI::release                          :     ambience_city_traffic_horn_5 (000001E1522015B8)
+[LOG] SoundI::release                          :  (000001DE587CA0A8)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_1 (000001E151FECC78)
+[LOG] SoundI::release                          :  (000001E151A43588)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_2 (000001DE4EE4D938)
+[LOG] SoundI::release                          :  (000001DE4D2905F8)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_3 (000001E0AE1C2088)
+[LOG] SoundI::release                          :  (000001DE587CAD98)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_4 (000001DE58540BF8)
+[LOG] SoundI::release                          :  (000001DE57A871D8)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_5 (000001DE587D4C88)
+[LOG] SoundI::release                          :  (000001DE587CA388)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_6 (000001DE58540238)
+[LOG] SoundI::release                          :  (000001E151A42FC8)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_7 (000001E151242D18)
+[LOG] SoundI::release                          :  (000001DE57A87068)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_8 (000001DE587D4608)
+[LOG] SoundI::release                          :  (000001E151A42898)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_9 (000001DE4EE4DE18)
+[LOG] SoundI::release                          :  (000001DE57A87628)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_10 (000001E155682DC8)
+[LOG] SoundI::release                          :  (000001DE587CA948)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_11 (000001DE58540718)
+[LOG] SoundI::release                          :  (000001DE57A87D58)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_12 (000001DE587D4E28)
+[LOG] SoundI::release                          :  (000001DE587CAAB8)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_13 (000001DE587ED5B8)
+[LOG] SoundI::release                          :  (000001E151A42A08)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_14 (000001DE4EE4DC78)
+[LOG] SoundI::release                          :  (000001E151A43418)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_15 (000001E151243538)
+[LOG] SoundI::release                          :  (000001E151A42CE8)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_16 (000001E1512431F8)
+[LOG] SoundI::release                          :  (000001DE57A874B8)
+[LOG] SoundI::release                          :     ambience_city_walla_chatter_17 (000001E155682C28)
+[LOG] SoundI::release                          :  (000001DE587CA4F8)
+[LOG] SoundI::release                          :     ambience_city_traffic_train_2 (000001E151FECE18)
+[LOG] SoundI::release                          :  (000001DE4D290488)
+[LOG] SoundI::release                          :     ambience_city_traffic_train_1 (000001E0AE1C23C8)
+[LOG] SoundI::release                          :  (000001E151A42B78)
+[LOG] SoundI::release                          :     ambience_city_traffic_passing_1 (000001DE4EE4DAD8)
+[LOG] SoundI::release                          :  (000001DE587CA218)
+[LOG] SoundI::release                          :     ambience_city_traffic_passing_2 (000001E151FECFB8)
+[LOG] SoundI::release                          :  (000001DE4D2908D8)
+[LOG] SoundI::release                          :     ambience_city_traffic_passing_3 (000001DE587ED0D8)
+[LOG] SoundI::release                          :  (000001DE587CA7D8)
+[LOG] SoundI::release                          :     ambience_city_traffic_passing_4 (000001DE58540A58)
+[LOG] SoundI::release                          :  (000001E151A42E58)
+[LOG] SoundI::release                          :     ambience_city_traffic_passing_5 (000001E151242838)
+[LOG] SoundI::release                          :  (000001DE57A87348)
+[LOG] SoundI::release                          :     ambience_city_traffic_passing_6 (000001DE587D4AE8)
+[LOG] SoundI::release                          : ambience_city_traffic_pad (000001DE59050C68)
+[LOG] SoundI::release                          :     ambience_city_traffic_pad (000001E12321F648)
+[LOG] SoundI::release                          :     ambience_city_traffic_pad (000001DE592A6768)
+[LOG] SoundI::release                          : ambience_city_walla_pad (000001DE59050E18)
+[LOG] SoundI::release                          :     ambience_city_walla_pad (000001E155682A88)
+[LOG] SoundI::release                          :     ambience_city_walla_pad (000001DE592A60A8)
+[LOG] SoundI::release                          :  (000001DE4D290768)
+[LOG] SoundI::release                          :     ambience_city_traffic_passing_7 (000001DE587ECBF8)
+[LOG] SoundI::release                          :  (000001DE587CA668)
+[LOG] SoundI::release                          :     ambience_city_traffic_siren (000001E151FEC938)
+[LOG] SoundI::release                          :  (000001DE4D290A48)
+[LOG] SoundI::release                          :     ambience_city_traffic_horn_1 (000001DE587ECD98)
+[LOG] SoundI::release                          :  (000001E151A432A8)
+[LOG] SoundI::release                          :     ambience_city_traffic_horn_2 (000001DE4EE4DFB8)
+[LOG] SoundI::release                          :  (000001E151A43138)
+[LOG] SoundI::release                          :     ambience_city_traffic_horn_3 (000001DE587D4468)
+[LOG] SoundI::release                          :  (000001DE57A87908)
+[LOG] SoundI::release                          :     ambience_city_traffic_horn_4 (000001E155683108)
+[LOG] SoundI::release                          :  (000001DE587CAC28)
+[LOG] SoundI::release                          :     ambience_city_traffic_horn_5 (000001E151FED158)
+[LOG] Thread::callback                         : FMOD Studio update thread finished.
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] SystemI::close                           : Closed.
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] SystemI::close                           : Closed.
+[LOG] Thread::callback                         : FMOD nonblocking thread (0) finished.
+[LOG] Thread::callback                         : FMOD file thread finished.
